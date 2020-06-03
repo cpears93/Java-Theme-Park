@@ -2,6 +2,7 @@ package attractions;
 
 import org.junit.Before;
 import org.junit.Test;
+import people.Visitor;
 
 import static org.junit.Assert.assertEquals;
 
@@ -11,8 +12,8 @@ public class DodgemTest {
 
     @Before
     public void setUp() throws Exception {
-        dodgems = new Dodgems("Bumper Cars", 5);
-    }
+        dodgems = new Dodgems("Bumper Cars", 5); }
+
 
 
     @Test
