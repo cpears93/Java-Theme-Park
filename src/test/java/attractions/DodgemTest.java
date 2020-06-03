@@ -12,7 +12,10 @@ public class DodgemTest {
 
     @Before
     public void setUp() throws Exception {
-        dodgems = new Dodgems("Bumper Cars", 5); }
+        dodgems = new Dodgems("Bumper Cars", 5);
+        visitor3 = new Visitor(14, 1.3, 20);
+        visitor4 = new Visitor(11, 1.1, 10);
+    }
 
 
 
